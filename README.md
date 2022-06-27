@@ -4,7 +4,7 @@ Code for paper in "ECAPA-TDNN Based Depression Detection from Clinical Speech"
 
 ## Environments
 
-The experimental environment is listed here. Using different versions of packages when reproducing the experiments may cause some problems.
+The experimental environment is listed here. Using different versions of packages may cause some problems.
 ```
 python==3.7
 torch==1.9.0
