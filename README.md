@@ -37,9 +37,18 @@ ECAPA-TDNN was adjusted from speaker recognition to speech classification, in a 
 
 for more detials about the models, please refer to [ECAPA-TDNN: Emphasized Channel Attention, Propagation and Aggregation in TDNN Based Speaker Verification](https://arxiv.org/abs/2005.07143).
 
+And in the subsequence experiments, the model was found to be significantly better than the models of DepAudioNet, ResNet, X-Vector, etc., not to mention some traditional manual feature methods.
+
 ECAPA-TDNN has been validated to perform well on classification tasks, and we just use it for classification. However, this is also some interesting findings. In our experiemnts, we also extracted the embedding form model, and used T-SNE for visiualized the relationship between embeddings and speakers. we found speech embeddings spoken by one speakers always forming a cluster, and those from depressed speech were more dispersed. This remains to further verification.
 
 ## Cited
 ```
-Waiting.
+@inproceedings{inproceedings,
+  author = {Wang, Dong and Ding, Yanhui and Zhao, Qing and Yang, Peilin and Tan, Shuping and Li, Ya},
+  year = {2022},
+  month = {09},
+  pages = {3333-3337},
+  title = {ECAPA-TDNN Based Depression Detection from Clinical Speech},
+  doi = {10.21437/Interspeech.2022-10051}
+}
 ```
